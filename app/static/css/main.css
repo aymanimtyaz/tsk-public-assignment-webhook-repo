@@ -1,0 +1,43 @@
+/* branch name hightlighting */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
+/* default text font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+
+main{
+    margin-top: 150px;
+}
+
+#github-event-updates{
+    width: 1200px;
+    margin: auto;
+}
+
+.github-event{
+    border-left: 10px solid black;
+    border-top: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.github-event-message{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.default-font{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.author-name{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.branch-name{
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
