@@ -1,7 +1,16 @@
-from flask_pymongo import PyMongo
+"""
+Module for initializing and exporting extensions to our app.
 
-# Setup MongoDB here
-# mongo = PyMongo(uri="mongodb://localhost:27017/database")
+The extensions are defined here as global variable as can be imported
+from files where they are needed.
+
+Global Variables
+----------------
+mongo: flask_pymongo.PyMongo
+    A PyMongo connection object that is used to connect to mongodb.
+"""
+
+from flask_pymongo import PyMongo
 
 mongo = PyMongo()
 

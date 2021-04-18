@@ -2,11 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
 /* default text font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* header title font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
-
+body{
+    margin: 0px;
+}
 
 main{
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 #github-event-updates{
@@ -14,9 +18,26 @@ main{
     margin: auto;
 }
 
-.github-event{
-    border-left: 10px solid black;
-    border-top: 2px solid black;
+.github-event-push{
+    border-left: 10px solid #A2A2A1FF;
+    border-top: 2px solid #A2A2A1FF;
+    background-color: #F1F4FFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.github-event-pull{
+    border-left: 10px solid #00203FFF;
+    border-top: 2px solid #00203FFF;
+    background-color: #ADEFD1FF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.github-event-merge{
+    border-left: 10px solid #2C5F2DFF;
+    border-top: 2px solid #2C5F2DFF;
+    background-color: #FFE77AFF;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -39,5 +60,16 @@ main{
 
 .branch-name{
     font-family: 'Zilla Slab Highlight', cursive;
+}
+
+#page-header{
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+#header-title{
+    margin: 10px;
+    font-size: 70px;
+    font-family:'Source Code Pro', monospace;
 }
 
